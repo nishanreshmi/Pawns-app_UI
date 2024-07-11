@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header{
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.homebar{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.boost-container {
+    background-color: #ffeb3b;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boost-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boost-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.boost-percentage {
+    background-color: #7e57c2;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.boost-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.boost-bar {
+    background-color: #7e57c2;
+    height: 100%;
+    width: 90%; /* This represents the percentage */
+    border-radius: 5px 0 0 5px;
+}
+
+.boost-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.test{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
