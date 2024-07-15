@@ -9,7 +9,10 @@
 header{
     margin-left: 25px;
     margin-right: 30px;
+    height: 900px;
 }
+
+/** first-container **/
 
 .homebar{
     margin-bottom: 15px;
@@ -22,7 +25,7 @@ header{
     background-color: #ffeb3b;
     border-radius: 10px;
     padding: 20px;
-    width: 400px;
+    width: 403px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -111,9 +114,15 @@ header{
     color: white;
     text-align: center;
     border-radius: 10px;
-    height: 30px;
-    padding-top: 5px;
+    height: 50px;
+    padding-top: 15px;
     
+}
+
+.internet-share:hover{
+    background-color: #999999c9;
+    color: black;
+    cursor: pointer;
 }
 
 .internet-share2{
@@ -156,9 +165,7 @@ header{
     background-color: #7e57c2;
     display: flex;
     flex-direction: row-reverse;
-    float: right;
-
-
+    transition: all 0.2s ease-in 0s;
 }
 
 .toogle-circle{
@@ -174,9 +181,115 @@ header{
 /** tooglebar animation **/ 
 
 .toogle-circle:active{
-     transform: translate(-18px);           
+     transform: translate(-18px);          
     
 }
 
+.tooglebox:active{
+    background-color: rgb(102, 102, 102);
+}
+
+/** third-container **/
+
+.balance-container{
+    width: 400px;
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px 25px;
+}
 
 
+.balance-contheader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.balance-header{
+    color: #7e57c2;
+    font-weight: 600px;
+    
+}
+
+.refressicon {
+}
+
+.earning-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(204, 204, 204, 0.863);
+    border-radius: 5px;
+    height: 35px;
+    font-size: 0.82em;    
+}
+
+.earning1{
+    background-color: white;
+    height: 85%; 
+    width: 45%;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 0.5px;
+}
+
+.earning2{
+    width: 50%;
+}
+
+.moneyearn-store{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999c9;
+    padding-bottom: 40px;
+}
+
+.tolearning{
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999c9;
+    padding-bottom: 20px;
+}
+
+.payout-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 8px;
+   
+}
+
+
+.payout{
+    padding-top: 15px;
+    font-weight: bold;
+    background-color: #7e57c2;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 5px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.payout:hover{
+    background-color: #999999c9;
+    color: black;
+}
+
+.payout-bottom {
+    margin-top: 10px;
+    font-weight: lighter;
+    color: rgba(85, 85, 85, 0.829);
